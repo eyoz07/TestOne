@@ -1,0 +1,93 @@
+<html>
+	<body>
+		<style>
+			table, th, td {
+				border: 1px solid black;
+				border-collapse: collapse;
+			}
+			th, td {
+				padding: 5px;
+				vertical-align: middle;
+			}
+			th {
+				text-align: left;
+			}
+			caption {
+				text-align: left;
+			}
+		</style>
+		<br>
+		<br>
+		<center>
+			<table>
+				<tr>
+					<th bgcolor="#0577BE" colspan="5"><center><font color = "#FFFFFF" size = 4>Resumen</font></center></th>
+				</tr>
+				<tr>
+					<td bgcolor="#E0F2F7" rowspan="14"><center><b>Detalles</b></center></td>
+					<td colspan="4"><center><i><b>Nombre de la liberaci&oacute;n</b></i></center></td>
+				</tr>
+				<tr>
+					<td colspan="4">${nombreLiberacion}</td>
+				</tr>
+				<tr>
+					<td colspan="2"><i><b>Fecha</b></i></td>
+					<td colspan="2">${fechaSF1}</td>
+				</tr>
+				<tr>
+					<td colspan="2"><i><b>Plataforma</b></i></td>
+					<td colspan="2">MIDAS</td>
+				</tr>
+				<tr>
+					<td colspan="2"><i><b>Ambiente</b></i></td>
+					<td colspan="2">${ambienteDeploy}</td>
+				</tr>
+				<tr>
+					<td colspan="2"><i><b>Source</b></i></td>
+					<td colspan="2">${sourcePathC}</td>
+				</tr>
+				<tr>
+					<td colspan="2"><i><b>Build</b></i></td>
+					<td colspan="2">Successful</td>
+				</tr>
+				<tr>
+					<td colspan="2"><i><b>EAR</b></i></td>
+					<td colspan="2">${nameEARSF}</td>
+				</tr>
+				<tr>
+					<td colspan="2"><i><b>Script DB</b></i></td>
+					<td colspan="2">${scriptDB}</td>
+				</tr>
+				<tr>
+					<td colspan="2"><i><b>Versi&oacute;n</b></i></td>
+					<td colspan="2">${versionSF}</td>
+				</tr>
+				<tr>
+					<td colspan="4"><center><i><b>Developer</b></i></center></td>
+				</tr>
+				<tr>
+					<td colspan="2">${nameDeveloper}</td>
+					<td colspan="2">${mailDeveloper}</td>
+				</tr>
+				<tr>
+					<td colspan="4"><center><i><b>Comentarios</b></i></center></td>
+				</tr>
+				<tr>
+					<td colspan="4">${comentarios}</td>
+				</tr>
+				<!--<tr>
+					<td bgcolor="#E0F2F7" rowspan="2"><center><b>Diferencias</b></center></td>
+					<td><center><i><b>Archivos</b></i></center></td>
+					<td colspan="2"><center><i><b>Tama&ntilde;o en disco</b></i></center></td>
+					<td><center><i><b>Diff</b></i></center></td>
+				</tr>
+				<tr>
+					<td><i>ear</i></td>
+					<td>${pesoAnt}</td>
+					<td>${pesoAct}</td>
+					<td><b><font color=green>+403</font></b></td>
+				</tr>-->
+			</table>
+		</center>
+	</body>
+</html>
